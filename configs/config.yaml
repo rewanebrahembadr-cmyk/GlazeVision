@@ -1,0 +1,19 @@
+seed: 42
+raw: data/raw
+split: data/splits/split.csv
+image_size: 224
+recipe_group_distance: 0.04
+surface_mapping:
+  Glossy: Glossy
+  Semi-glossy: Glossy
+  Satin: Satin
+  Satin-matte: Satin
+  Matte: Matte
+  Semi-matte: Matte
+  Smooth Matte: Matte
+  Dry Matte: Matte
+  Stony Matte: Matte
+classes:
+  surface: [Glossy, Satin, Matte]
+  transparency: [Opaque, Semi-opaque, Translucent, Transparent]
+  color_family: [Black, Blue, Gray, Green, Orange, Purple, Red, White, Yellow]
